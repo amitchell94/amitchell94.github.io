@@ -232,7 +232,7 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin: 0 0 25px 25px;
 }
 
 #portfolio .portfolio-item .portfolio-link {

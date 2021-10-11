@@ -21,7 +21,7 @@ a:hover {
 }
 
 .text-primary {
-    color: #005cbf !important
+    color: #0097A7 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,14 +65,14 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #005cbf;
-    border-color: #005cbf
+    background-color: #0097A7;
+    border-color: #0097A7
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-    background-color: #196CC5 !important;
-    border-color: #196CC5 !important;
-    color: #fff
+    background-color: #00bcd1 !important;
+    border-color: #00bcd1 !important;
+    color: #fff !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
@@ -81,12 +81,12 @@ section h3.section-subheading {
 }
 
 ::-moz-selection {
-    background: #005cbf;
+    background: #0097A7;
     text-shadow: none
 }
 
 ::selection {
-    background: #005cbf;
+    background: #0097A7;
     text-shadow: none
 }
 
@@ -113,7 +113,7 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #005cbf;
+    background-color: #0097A7;
     font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
@@ -285,7 +285,7 @@ section#skills .overlay {
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
     opacity: 0;
-    background: rgba(25, 108, 197, .9)
+    background: rgba(0, 151, 167, .9)
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -540,13 +540,13 @@ ul.social-buttons li a {
     color: #fff;
     border-radius: 100%;
     outline: 0;
-    background-color: #005cbf
+    background-color: #0097a7
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-    background-color: #196CC5
+    background-color: #00bcd1
 }
 
 .contact-buttons a:hover {
-    color: #196CC5
+    color: #00bcd1
 }
