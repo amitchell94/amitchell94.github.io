@@ -691,5 +691,9 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #00bcd1
+}
+
+.medium-widget-article__title {
+  font-size: 30px;
 }
