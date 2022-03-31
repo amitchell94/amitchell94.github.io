@@ -78,12 +78,20 @@
 
     </header>
     <!-- Blog posts -->
-    <div class="container">
 
-        <div id="medium-widget"></div>
-        <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-        <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@andymitchell694/","postsPerLine":1,"limit":4,"picture":"small","fields":["description","author","claps","publishAt"],"ratio":"square"}})</script>
-      </div>
+    <div class="container mt-5 pt-5" id="medium">
+        <div class="row" id="jsonContent">
+        </div>
+    </div>
+
+    <ul id="pagin" class="pagination justify-content-center">
+    </ul>
+
+    <div class="text-center">
+        <div class="mb-5">
+            <a class="btn btn-primary btn-lg mb-5" href="https://medium.com/@andymitchell694">View all Posts</a>
+        </div>
+    </div>
 
 
     <!-- Contact -->
@@ -156,6 +164,8 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+
+    <script src="js/blogUpdate.js"></script>
 
 </body>
 
