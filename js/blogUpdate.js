@@ -1,4 +1,7 @@
 $(function () {
+	// Show the spinner initially
+    $('#loadingSpinner').show();
+	
     var mediumPromise = new Promise(function (resolve) {
     var $content = $('#jsonContent');
     var data = {
@@ -63,5 +66,7 @@ mediumPromise.then(function()
             showPage(parseInt($(this).text()))
         });
     }
+	// Hide the spinner after content and pagination is loaded
+	$('#loadingSpinner').hide();
     });
 });
