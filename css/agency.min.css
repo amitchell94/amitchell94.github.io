@@ -335,6 +335,79 @@ section#skills .overlay {
     z-index: 2
 }
 
+#blog-post .blog-post-item {
+    right: 0;
+    margin: 0 0 15px;
+    border-radius: .25rem;
+}
+
+#blog-post .blog-post-item .blog-post-link {
+    position: relative;
+    display: block;
+    height: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    vertical-align: middle;
+    float: none;
+    cursor: pointer
+}
+
+#blog-post .blog-post-item .blog-post-link .blog-post-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s;
+    opacity: 0;
+    background: rgba(0, 151, 167, .9)
+}
+
+#blog-post .blog-post-item .blog-post-link .blog-post-hover:hover {
+    opacity: 1
+}
+
+#blog-post .blog-post-item .blog-post-link .blog-post-hover .blog-post-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: #fff
+}
+
+#blog-post .blog-post-item .blog-post-link .blog-post-hover .blog-post-hover-content i {
+    margin-top: -12px
+}
+
+#blog-post .blog-post-item .blog-post-link .blog-post-hover .blog-post-hover-content h3, #blog-post .blog-post-item .blog-post-link .blog-post-hover .blog-post-hover-content h4 {
+    margin: 0
+}
+
+#blog-post .blog-post-item .blog-post-caption {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: left;
+    background-color: #fff
+}
+
+#blog-post .blog-post-item .blog-post-caption h4 {
+    margin: 0;
+    text-transform: none
+}
+
+#blog-post .blog-post-item .blog-post-caption p {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
+#blog-post * {
+    z-index: 2
+}
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -343,6 +416,12 @@ section#skills .overlay {
 
 @media (min-width: 767px) {
     #portfolio .portfolio-item {
+        margin: 0 0 30px
+    }
+}
+
+@media (min-width: 767px) {
+    #blog-post .blog-post-item {
         margin: 0 0 30px
     }
 }

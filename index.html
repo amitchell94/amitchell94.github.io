@@ -54,7 +54,7 @@
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="blog.html">Blog</a>
+                        <a class="nav-link js-scroll-trigger" href="#blog-post">Blog</a>
                     </li>
                 </ul>
             </div>
@@ -96,15 +96,15 @@
                         <div class="row text-center pt-4">
                             <li class="btn btn-primary m-auto">
                                 <a href="CV - Andy Mitchell.pdf" class="text-white" style="text-decoration: none;">
-                                    <i class="fas fa-file-download pr-1"></i>
-                                    <i class="fab" style="font-family: Montserrat; font-weight: 600">Download CV</i>
+                                    <i class="fas fa-file-pdf pr-1"></i>
+                                    <i class="fab" style="font-family: Montserrat; font-weight: 600">View CV</i>
                                 </a>
                             </li>
                         </div>
                     </div>
                 </div>
         </div>
-d            </div>
+        </div>
     </header>
 
     <!-- About Me -->
@@ -119,14 +119,14 @@ d            </div>
                         <br>
                         <br>
 						I started my career in software engineering at the age of 17 through an apprenticeship with a local software company. 
-						I studied part-time over the next couple of years and worked hard to complete my apprenticeship  a year early. 
+						I studied part-time over the next couple of years and worked hard to complete my apprenticeship a year early. 
 						After finishing my apprenticeship, I took an interest in volunteering and decided to spend 
 						<a href="https://medium.com/@andymitchell694/my-time-volunteering-in-costa-rica-and-nicaragua-3eb61169e319"" style=" color:
                             black"><u><b>3 months working with a sustainable development charity in Costa Rica and Nicaragua</b></u></a>.
 						<br>
 						<br>
-						After returning to work, I continued studying part-time and achieved a <i>Bachelor's of Science in Engineering and Management</i> from the <i>University of Portsmouth</i>. 
-						Shortly after graduating, I wanted to improve my technical skills as well as my Spanish so I chose to sign up for a 
+						After returning to work, I continued studying part-time to achieve a <i>Bachelor's of Science in Engineering and Management</i> from the <i>University of Portsmouth</i>. 
+						Shortly after graduating, I wanted to further improve my technical skills as well as my Spanish so I chose to sign up for a 
 						<a href="https://medium.com/@andymitchell694/studying-java-at-a-coding-bootcamp-in-mexico-ac7d6698cc50"" style=" color:
                             black"><u><b>2-month Java Backend Bootcamp in Mexico</b></u></a>. The skills I learned allowed me to work on more complex projects for customers in the semiconductor industry
 							which took me across Europe, Asia, and North America.
@@ -347,6 +347,7 @@ d            </div>
         </div>
     </section>
 
+
     <!-- Contact -->
     <section id="contact">
         <div class="container">
@@ -377,10 +378,61 @@ d            </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer>
+    
+     <!-- Blog Posts -->
+     <section class="bg-light" id="blog-post">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading text-uppercase">Blog Posts</h2>
+                    <!-- <h3 class="section-subheading text-muted">Some of the bigger projects I've worked on.</h3> -->
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6 col-sm-6 blog-post-item">
+                    <div class="card">
+                        <a class="blog-post-link text-center bg-white" href="https://medium.com/@andymitchell694/studying-java-at-a-coding-bootcamp-in-mexico-ac7d6698cc50">
+                            <img class="img-fluid" src="img/mexico.jpg" alt="">
+                        </a>
+                        <div class="blog-post-caption mx-auto">
+                            <a href="https://medium.com/@andymitchell694/studying-java-at-a-coding-bootcamp-in-mexico-ac7d6698cc50" style=" color:
+                            black"><h4>My Experience Studying Java at a Coding Bootcamp in Mexico</h4></a>
+                            
+                            <p class="text-left pt-3">Now that I’ve just started a new semester of classes in my Master’s program, I often find myself needing to introduce myself and talk about my background in software engineering. I always feel strange when it’s my turn...
+                            <br>
+                            <br>
+                            <a href="https://medium.com/@andymitchell694/studying-java-at-a-coding-bootcamp-in-mexico-ac7d6698cc50" style=" color:
+                            black"><u><b>Read more</b></u></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 blog-post-item">
+                    <div class="card">
+                        <a class="blog-post-link text-center bg-white" href="https://medium.com/@andymitchell694/my-time-volunteering-in-costa-rica-and-nicaragua-3eb61169e319">
+                            <img class="img-fluid" src="img/cutting wood.jpg" alt="">
+                        </a>
+                        <div class="blog-post-caption mx-auto">
+                            <a href="https://medium.com/@andymitchell694/my-time-volunteering-in-costa-rica-and-nicaragua-3eb61169e319" style=" color:
+                            black"><h4>My Time Volunteering in Costa Rica and Nicaragua</h4></a>
+                            
+                            <p class="text-left pt-3">In 2015, after reading the book ‘The Art of Nonconformity’ I was inspired to look for volunteering opportunities and after a small amount of research, I found the UK-based charity, Raleigh International. Raleigh International focuses...
+                                <br>
+                                <br>
+                                <a href="https://medium.com/@andymitchell694/my-time-volunteering-in-costa-rica-and-nicaragua-3eb61169e319"" style=" color:
+                                black"><u><b>Read more</b></u></a>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer style="background-color: #212529;">
+        <div class="container ">
             <div class="row">
                 <div class="col-md-12">
                     <ul class="list-inline social-buttons">
@@ -409,6 +461,7 @@ d            </div>
             </div>
         </div>
     </footer>
+
 
     <!-- Portfolio Modals -->
 
@@ -681,8 +734,8 @@ d            </div>
                                     <br>
                                     <br>
                                     Developed for the Hack the South 2019 Hackathon hosted at the University of
-                                    Southampton where the project was awarded both Best MVP and Best Icebreaker
-                                    Application awards
+                                    Southampton where the project was awarded both <b>Best MVP</b> and <b>Best Icebreaker
+                                    Application</b> awards
                                 </p>
                                 <hr class="mx-5">
                                 <ul class="list-inline">
